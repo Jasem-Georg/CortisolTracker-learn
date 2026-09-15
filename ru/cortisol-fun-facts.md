@@ -9,8 +9,8 @@ draft: true
 translates: cortisol-fun-facts
 tags:
   - cortisol
-  - "adrenal insufficiency"
-  - Hypocortisolism
+  - adrenal-insufficiency
+  - corticosteroids
 ---
 
 CortisolTracker не является медицинским устройством и не заменяет профессиональную медицинскую консультацию. Всегда советуйтесь с эндокринологом, прежде чем менять схему приёма.
