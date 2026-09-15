@@ -1,54 +1,80 @@
 # CortisolTracker Learn
 
-Публичные статьи для [cortisoltracker.org/learn](https://cortisoltracker.org/learn/en/).  
-Код приложения сюда не входит. Git, сервер и SSH **не нужны**.
+Статьи для [cortisoltracker.org/learn](https://cortisoltracker.org/learn/en/).  
+Код приложения сюда не входит. Git, сервер и SSH автору **не нужны**.
 
-Черновики (`draft: true`) не попадают на сайт, но **видны в этом репозитории** — не клади сюда то, чего нельзя показывать.
+Это **не** мгновенная публикация: сначала PR и зелёная проверка, потом владелец одной кнопкой выкладывает на сайт. Черновики (`draft: true`) на сайте не видны, но **видны в этом репозитории**.
 
 ---
 
-## Новая статья (браузер)
+## Новая статья (только браузер)
 
-1. Открой папку языка:
+1. Открой **одну** папку языка — ту, на которой пишешь. Не создавай пустые файлы в `de/` / `en/` «заодно»: любой `.md` в папке языка робот проверяет как статью.
 
-   - [en](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/en) · [ru](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/ru) · [uk](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/uk) · [de](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/de) · [es](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/es) · [fr](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/fr)
+   [en](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/en) · [ru](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/ru) · [uk](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/uk) · [de](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/de) · [es](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/es) · [fr](https://github.com/Jasem-Georg/CortisolTracker-learn/tree/main/fr)
 
 2. **Add file** → **Create new file**.
-3. Имя только латиница и дефисы, например `food-and-cortisol.md`.
-4. Скопируй [_template.md](./_template.md), заполни поля.  
-   `lang` = папка, `slug` = имя файла без `.md`, пока пишешь — `draft: true`.
-5. Абзац «не медицинское изделие» из шаблона не удаляй.
-6. Внизу: **Create a new branch for this commit and start a pull request** — не `main`.
-7. **Create pull request**. Жди зелёную галочку и апрув владельца.
+3. Имя файла: только латиница, цифры и дефис, например `food-and-cortisol.md`. Не `еда.md`.
+4. Скопируй [_template.md](./_template.md) целиком. Заполни поля:
+   - `lang` = эта папка (`ru` в `ru/`)
+   - `slug` = имя файла без `.md`
+   - `draft: true` пока текст не вычитан
+   - абзац «не медицинское изделие» из шаблона **не удаляй**
+5. Внизу страницы выбери **Create a new branch for this commit and start a pull request**.  
+   Не оставляй **Commit directly to the main branch** — в `main` так не пустят, либо сломаешь защиту.
+6. **Create pull request**. Дождись зелёной галочки **Learn Markdown** на вкладке Checks.
 
-На сайт статья попадёт после merge и синхронизации с приложением. URL:
+Пока `draft: true`, на cortisoltracker.org статьи нет. Когда готово к публикации: в **том же** PR поставь `draft: false` (и сегодняшнюю `updated`), снова дождись зелёной проверки. Merge делает владелец: сам себе апрув автор поставить не может.
+
+Готовый URL после выпуска владельцем:
 
 `https://cortisoltracker.org/learn/{язык}/{slug}/`
 
+---
+
 ## Картинка
 
-**Add file** → **Upload files** в [images/](./images). В тексте:
+1. Сначала залей файл: папка [images/](./images) → **Add file** → **Upload files**. Лучше в **ту же ветку**, что и статья (сверху слева переключи ветку, потом upload).
+2. В Markdown пиши **ровно так** (первый слэш обязателен, слово `images` один раз):
 
 ```md
-![Коротко что на фото](/learn/images/имя-файла.webp)
+![Коротко что на фото](/learn/images/имя-файла.jpg)
 ```
 
-Путь именно `/learn/images/…` — так файл окажется на сайте.
+Файл на диске: `images/имя-файла.jpg`.  
+В тексте: `/learn/images/имя-файла.jpg`.
 
-## Правка
+Не используй `images/файл.jpg` и не используй `/learn/images/images/файл.jpg` — проверка при `draft: false` упадёт («missing image file»).
 
-Карандаш на файле → снова ветка + pull request, обнови `updated`.
+---
 
-Снять с сайта: `draft: true` (тоже через PR).
+## Если GitHub не даёт закоммитить
+
+Сообщение *Someone has committed since you started editing*: вкладка устарела (кто-то, в том числе робот, уже запушил в эту ветку). Жми **Cancel**, закрой редактор, обнови страницу, открой файл карандашом заново. Не пытайся сохранить старое окно.
+
+---
 
 ## Если проверка красная
 
-| Сообщение | Что сделать |
-|-----------|-------------|
+Править в **том же** PR, не плодить новые ветки без нужды.
+
+| Сообщение робота | Что сделать |
+|------------------|-------------|
+| must start with YAML frontmatter | удали пустой `.md` или вставь шаблон с `---` в начале |
 | slug must equal filename | имя файла = поле `slug` |
-| lang does not match folder | `lang: ru` только в папке `ru/` |
-| description is required | при `draft: false` заполни description |
+| lang does not match folder | `lang: ru` только внутри `ru/` |
+| description is required | при `draft: false` заполни `description` |
 | medical-device disclaimer | верни абзац из шаблона |
-| missing image file | имя в статье = имя файла в `images/` |
+| missing image file | путь `/learn/images/…` и файл реально лежит в `images/` |
+| no EN article with translates | это **предупреждение**, не ошибка; нет английской пары — селектора EN не будет |
+
+Жёлтое *Node.js 20 is deprecated* на Actions владельца к тексту статьи отношения не имеет.
+
+---
+
+## Правка уже смерженной статьи
+
+Карандаш → снова **ветка + pull request** (не `main`), обнови `updated`.  
+Снять с сайта: `draft: true` в новом PR.
 
 © CortisolTracker. Тексты не являются медицинской рекомендацией.
