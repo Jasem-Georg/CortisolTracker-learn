@@ -1,0 +1,26 @@
+name: Frontend checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: learn-check-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  learn:
+    name: Learn Markdown
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Validate Learn Markdown
+        run: node scripts/check-learn-content.mjs
