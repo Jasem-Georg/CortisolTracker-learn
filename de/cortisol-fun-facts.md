@@ -5,7 +5,7 @@ lang: de
 slug: cortisol-fun-facts
 date: 2026-09-15
 updated: 2026-09-15
-draft: true
+draft: false
 translates: cortisol-fun-facts
 tags:
   - cortisol
