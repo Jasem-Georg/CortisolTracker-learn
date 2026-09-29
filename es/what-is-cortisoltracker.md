@@ -70,4 +70,4 @@ CortisolTracker funciona en el navegador. La interfaz está en seis idiomas: rus
 - No sustituye las reglas del día de enfermedad, el kit de emergencia ni pedir ayuda médica.
 - No es un producto sanitario.
 
-Lo siguiente en Fundamentos: por dónde empezar, un día ordinario, el estado actual y la cinta de valoraciones y dosis.
+Lo siguiente en Fundamentos: [por dónde empezar](/learn/es/getting-started/), [un día ordinario](/learn/es/ordinary-day/), el [estado actual](/learn/es/current-status/) y la [cinta de valoraciones y dosis](/learn/es/state-timeline/).

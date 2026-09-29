@@ -12,7 +12,7 @@ tags:
   - guide
 ---
 
-Contents of Basics. A link goes to a page that is already written. The other items will follow.
+Contents of Basics. Each item leads to its own page.
 
 ## 1. Overview
 
@@ -20,25 +20,25 @@ Contents of Basics. A link goes to a page that is already written. The other ite
 
 ## 2. Getting started
 
-- The idea of the first settings
-- Registration
-- User profile
-- Medical profile
+- [The idea of the first settings](/learn/en/getting-started/#the-idea-of-the-first-settings)
+- [Registration](/learn/en/getting-started/#registration)
+- [User profile](/learn/en/getting-started/#user-profile)
+- [Medical profile](/learn/en/getting-started/#medical-profile)
 
 ## 3. An ordinary day
 
-- The first dose
-- A plan of doses for the day
-- The first influencing factor
-- Overview of influencing factors
+- [The first dose](/learn/en/ordinary-day/#the-first-dose)
+- [A plan of doses for the day](/learn/en/ordinary-day/#a-plan-of-doses-for-the-day)
+- [The first influencing factor](/learn/en/ordinary-day/#the-first-influencing-factor)
+- [Overview of influencing factors](/learn/en/ordinary-day/#overview-of-influencing-factors)
 
 ## 4. Current status
 
-- The Current status panel
-- Entering how you feel
+- [The Current status panel](/learn/en/current-status/#the-current-status-panel)
+- [Entering how you feel](/learn/en/current-status/#entering-how-you-feel)
 
 ## 5. Analytics
 
-- Analytics of how you feel and of doses taken
+- [Analytics of how you feel and of doses taken](/learn/en/state-timeline/#analytics-of-how-you-feel-and-of-doses-taken)
 
 *CortisolTracker is not a medical device.*
