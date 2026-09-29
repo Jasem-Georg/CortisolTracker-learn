@@ -70,4 +70,4 @@ CortisolTracker läuft im Browser. Die Oberfläche gibt es in sechs Sprachen: Ru
 - Sie ersetzt keine Regeln für den Krankheitstag, kein Notfallset und keine medizinische Hilfe.
 - Sie ist kein Medizinprodukt.
 
-Als Nächstes in den Grundlagen: erste Schritte, ein gewöhnlicher Tag, der aktuelle Status und das Band der Einschätzungen und Dosen.
+Als Nächstes in den Grundlagen: [erste Schritte](/learn/de/getting-started/), [ein gewöhnlicher Tag](/learn/de/ordinary-day/), der [aktuelle Status](/learn/de/current-status/) und das [Zustandsband](/learn/de/state-timeline/).

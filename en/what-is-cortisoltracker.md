@@ -70,4 +70,4 @@ CortisolTracker runs in the browser. The interface is in six languages: Russian,
 - It does not replace sick-day rules, an emergency kit, or seeking medical help.
 - It is not a medical device.
 
-Next in Basics: getting started, an ordinary day, current status, and the timeline of ratings and doses.
+Next in Basics: [getting started](/learn/en/getting-started/), [an ordinary day](/learn/en/ordinary-day/), [current status](/learn/en/current-status/), and the [state strip](/learn/en/state-timeline/).

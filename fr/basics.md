@@ -12,7 +12,7 @@ tags:
   - guide
 ---
 
-Sommaire des Bases. Un lien mène vers une page déjà écrite. Les autres points suivront.
+Sommaire des Bases. Chaque point mène vers sa propre page.
 
 ## 1. Description
 
@@ -20,25 +20,25 @@ Sommaire des Bases. Un lien mène vers une page déjà écrite. Les autres point
 
 ## 2. Par où commencer
 
-- L’idée des premiers réglages
-- Inscription
-- Profil utilisateur
-- Profil médical
+- [L’idée des premiers réglages](/learn/fr/getting-started/#l-idée-des-premiers-réglages)
+- [Inscription](/learn/fr/getting-started/#inscription)
+- [Profil utilisateur](/learn/fr/getting-started/#profil-utilisateur)
+- [Profil médical](/learn/fr/getting-started/#profil-médical)
 
 ## 3. Une journée ordinaire
 
-- La première dose
-- Un plan de doses pour la journée
-- Le premier facteur d’influence
-- Aperçu des facteurs d’influence
+- [La première dose](/learn/fr/ordinary-day/#la-première-dose)
+- [Un plan de doses pour la journée](/learn/fr/ordinary-day/#un-plan-de-doses-pour-la-journée)
+- [Le premier facteur d’influence](/learn/fr/ordinary-day/#le-premier-facteur-d-influence)
+- [Aperçu des facteurs d’influence](/learn/fr/ordinary-day/#aperçu-des-facteurs-d-influence)
 
 ## 4. État actuel
 
-- Le panneau État actuel
-- Saisir comment vous vous sentez
+- [Le panneau État actuel](/learn/fr/current-status/#le-panneau-état-actuel)
+- [Saisir comment vous vous sentez](/learn/fr/current-status/#saisir-comment-vous-vous-sentez)
 
 ## 5. Analyse
 
-- Analyse des ressentis et des doses prises
+- [Analyse des ressentis et des doses prises](/learn/fr/state-timeline/#analyse-des-ressentis-et-des-doses-prises)
 
 *CortisolTracker n’est pas un dispositif médical.*

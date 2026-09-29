@@ -70,4 +70,4 @@ CortisolTracker fonctionne dans le navigateur. L'interface existe en six langues
 - Elle ne remplace pas les règles du jour de maladie, le kit d'urgence ni le recours à une aide médicale.
 - Ce n'est pas un dispositif médical.
 
-La suite dans les Bases : par où commencer, une journée ordinaire, l'état actuel et la bande des ressentis et des doses.
+La suite dans les Bases : [par où commencer](/learn/fr/getting-started/), [une journée ordinaire](/learn/fr/ordinary-day/), [l’état actuel](/learn/fr/current-status/) et la [bande des ressentis et des doses](/learn/fr/state-timeline/).
