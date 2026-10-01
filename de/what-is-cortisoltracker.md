@@ -4,7 +4,7 @@ description: "Was CortisolTracker zeigt: eine berechnete Cortisolkurve aus einge
 lang: de
 slug: what-is-cortisoltracker
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: what-is-cortisoltracker
 tags:
@@ -48,6 +48,8 @@ Die Kurve ist dazu da, den eigenen Tag leichter zu sehen und mit der Endokrinolo
 ![Berechneter Tag vom 29. September 2026: drei Hydrocortison-Einnahmen, Essen, Kaffee und Belastung](/learn/images/typical-day.png)
 
 Das ist ein gewöhnlicher Tag eines Menschen, **KEIN** Schema zum Nachmachen. Im Protokoll stehen drei Hydrocortison-Einnahmen, nach der morgendlichen Essen und Kaffee, später eine Belastung. Die blaue Linie ist das «gesunde Referenzprofil eines Menschen in Ruhe». Die violette Linie ist die «Referenz mit Faktoren»: derselbe Orientierungswert, verschoben durch diese Markierungen. Grün, Gelb und Rot sind die berechnete Konzentration gegenüber dieser Referenz: Grün ist normal, Gelb eine mäßige Abweichung, Rot eine kritische Abweichung. Die Beschriftungen an den Punkten sind eingetragene Dosen. Die gelbe gestrichelte Linie ist die aktuelle Uhrzeit; rechts davon sind die Kurven gepunktet, das ist die Berechnung für die restlichen Stunden des Tages. Unter der Kurve stehen dieselben Dosen und Faktoren als Liste. Die Beschriftungen auf dem Bild sind Englisch, weil die Oberfläche auf Englisch stand.
+
+Wenn schon mehrere Dosen eingetragen sind und die Kurve vor Ihnen liegt, lässt sich der Maßstab der Berechnung nach der [ersten Kalibrierung](/learn/de/initial-calibration/) einstellen. An einer unkalibrierten Kurve lässt sich nicht sagen, dass die Dosis zu hoch oder zu niedrig ist.
 
 ## Was in den Einträgen bleibt
 

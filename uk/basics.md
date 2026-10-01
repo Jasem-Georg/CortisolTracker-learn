@@ -4,7 +4,7 @@ description: "Зміст розділу «Основи»: які сторінк�
 lang: uk
 slug: basics
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: basics
 tags:
@@ -29,6 +29,7 @@ tags:
 
 - [Перша доза](/learn/uk/ordinary-day/#перша-доза)
 - [План доз на день](/learn/uk/ordinary-day/#план-доз-на-день)
+- [Початкове калібрування](/learn/uk/initial-calibration/)
 - [Перший фактор впливу](/learn/uk/ordinary-day/#перший-фактор-впливу)
 - [Огляд факторів впливу](/learn/uk/ordinary-day/#огляд-факторів-впливу)
 

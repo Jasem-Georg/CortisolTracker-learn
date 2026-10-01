@@ -4,7 +4,7 @@ description: "Sommaire des Bases : quelles pages sont déjà écrites. Ce n’es
 lang: fr
 slug: basics
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: basics
 tags:
@@ -29,6 +29,7 @@ Sommaire des Bases. Chaque point mène vers sa propre page.
 
 - [La première dose](/learn/fr/ordinary-day/#la-première-dose)
 - [Un plan de doses pour la journée](/learn/fr/ordinary-day/#un-plan-de-doses-pour-la-journée)
+- [Calibration initiale](/learn/fr/initial-calibration/)
 - [Le premier facteur d’influence](/learn/fr/ordinary-day/#le-premier-facteur-d-influence)
 - [Aperçu des facteurs d’influence](/learn/fr/ordinary-day/#aperçu-des-facteurs-d-influence)
 
