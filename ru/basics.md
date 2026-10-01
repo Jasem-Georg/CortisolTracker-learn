@@ -4,7 +4,7 @@ description: "Оглавление раздела «Основы»: какие �
 lang: ru
 slug: basics
 date: 2026-09-28
-updated: 2026-09-28
+updated: 2026-10-01
 draft: false
 translates: basics
 tags:
@@ -29,6 +29,7 @@ tags:
 
 - [Первая доза](/learn/ru/ordinary-day/#первая-доза)
 - [План доз на день](/learn/ru/ordinary-day/#план-доз-на-день)
+- [Начальная калибровка](/learn/ru/initial-calibration/)
 - [Первый фактор влияния](/learn/ru/ordinary-day/#первый-фактор-влияния)
 - [Обзор факторов влияния](/learn/ru/ordinary-day/#обзор-факторов-влияния)
 

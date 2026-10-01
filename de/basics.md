@@ -4,7 +4,7 @@ description: "Inhalt des Abschnitts Grundlagen: welche Seiten schon geschrieben 
 lang: de
 slug: basics
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: basics
 tags:
@@ -29,6 +29,7 @@ Inhalt des Abschnitts Grundlagen. Jeder Punkt führt auf seine eigene Seite.
 
 - [Die erste Dosis](/learn/de/ordinary-day/#die-erste-dosis)
 - [Ein Plan der Dosen für den Tag](/learn/de/ordinary-day/#ein-plan-der-dosen-für-den-tag)
+- [Erste Kalibrierung](/learn/de/initial-calibration/)
 - [Der erste Einflussfaktor](/learn/de/ordinary-day/#der-erste-einflussfaktor)
 - [Überblick der Einflussfaktoren](/learn/de/ordinary-day/#überblick-der-einflussfaktoren)
 

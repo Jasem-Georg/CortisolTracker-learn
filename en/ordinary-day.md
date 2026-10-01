@@ -4,7 +4,7 @@ description: "An ordinary day in CortisolTracker: the first dose, a plan of inta
 lang: en
 slug: ordinary-day
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: ordinary-day
 tags:
@@ -39,6 +39,8 @@ A dose can stay В«PlannedВ» until you mark В«Confirm doseВ» on В«Doses
 Several intakes in one day are several records on В«Doses todayВ», each with its own time and amount. В«Recurring doseВ» repeats that record every day, so the ordinary routine does not have to be typed again.
 
 В«GC calcВ» can fill in a time and an amount from the current curve and save them as a planned dose. That is a hint from records already entered. Taking it or changing it is your decision, together with your doctor.
+
+Once several doses are logged and the chart is in front of you, it is worth reading [initial calibration](/learn/en/initial-calibration/). It explains why an uncalibrated chart cannot say whether a dose is too high or too low, and how to set the scale of the calculation.
 
 ## The first influencing factor
 

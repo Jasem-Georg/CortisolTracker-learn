@@ -4,7 +4,7 @@ description: "Ce que montre CortisolTracker : une courbe de cortisol calculée �
 lang: fr
 slug: what-is-cortisoltracker
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: what-is-cortisoltracker
 tags:
@@ -48,6 +48,8 @@ Le graphique sert à voir plus facilement sa journée et à avoir de quoi en par
 ![Journée calculée du 29 septembre 2026 : trois prises d'hydrocortisone, un repas, un café et une activité](/learn/images/typical-day.png)
 
 C'est une journée ordinaire d'une personne, **PAS** un schéma à recopier. Le journal contient trois prises d'hydrocortisone, après celle du matin un repas et un café, plus tard une activité. La ligne bleue est le « profil de référence sain d'une personne au repos ». La violette est la « référence avec facteurs » : le même repère, décalé par ces marques. Vert, jaune et rouge sont la concentration calculée par rapport à cette référence : le vert est la normale, le jaune un écart modéré, le rouge un écart critique. Les libellés des points sont des doses notées. Le tireté jaune est l'heure actuelle ; à sa droite les courbes sont en pointillés, c'est le calcul pour les heures qui restent de la journée. Sous le graphique, les mêmes doses et facteurs sont en liste. Les libellés de l'image sont en anglais, parce que la langue de l'interface l'était.
+
+Quand plusieurs doses sont déjà notées et que le graphique est sous les yeux, l’échelle du calcul se règle avec la [calibration initiale](/learn/fr/initial-calibration/). Un graphique non calibré ne dit pas que la dose est trop forte ou trop faible.
 
 ## Ce qui reste dans les notes
 

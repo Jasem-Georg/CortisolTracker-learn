@@ -4,7 +4,7 @@ description: "Ein gewöhnlicher Tag in CortisolTracker: die erste Dosis, ein Pla
 lang: de
 slug: ordinary-day
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: ordinary-day
 tags:
@@ -39,6 +39,8 @@ Eine Dosis kann «Geplant» bleiben, bis Sie auf «Dosen heute» «Einnahme best
 Mehrere Einnahmen an einem Tag sind mehrere Einträge in «Dosen heute», jeder mit eigener Uhrzeit und Menge. «Wiederkehrende Dosis» wiederholt diesen Eintrag jeden Tag, der gewöhnliche Ablauf muss also nicht neu getippt werden.
 
 «GK rechnen» kann aus der aktuellen Kurve eine Uhrzeit und eine Menge einsetzen und sie als geplante Dosis speichern. Das ist ein Anhalt aus schon eingetragenen Daten. Ob Sie sie einnehmen oder ändern, entscheiden Sie zusammen mit der Ärztin oder dem Arzt.
+
+Wenn schon mehrere Dosen eingetragen sind und die Kurve vor Ihnen liegt, lohnt sich die [erste Kalibrierung](/learn/de/initial-calibration/). Dort steht, warum eine unkalibrierte Kurve nicht sagt, ob die Dosis zu hoch oder zu niedrig ist, und wie der Maßstab der Berechnung eingestellt wird.
 
 ## Der erste Einflussfaktor
 

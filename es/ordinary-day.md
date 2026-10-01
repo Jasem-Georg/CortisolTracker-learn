@@ -4,7 +4,7 @@ description: "Un día ordinario en CortisolTracker: la primera dosis, un plan de
 lang: es
 slug: ordinary-day
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: ordinary-day
 tags:
@@ -39,6 +39,8 @@ Una dosis puede quedarse en «Planificada» hasta que marques «Confirmar toma»
 Varias tomas en un día son varios registros en «Dosis hoy», cada uno con su hora y su cantidad. «Dosis recurrente» repite ese registro cada día, así que la rutina ordinaria no hay que volver a escribirla.
 
 «Cálc. GC» puede rellenar la hora y la cantidad a partir de la curva actual y guardarlas como dosis planificada. Es una orientación a partir de lo ya introducido. Tomarla o cambiarla es tu decisión junto con el médico.
+
+Cuando ya hay varias dosis anotadas y el gráfico está delante, merece la pena leer la [calibración inicial](/learn/es/initial-calibration/). Ahí se explica por qué un gráfico sin calibrar no dice si la dosis es alta o baja, y cómo ajustar la escala del cálculo.
 
 ## El primer factor de influencia
 

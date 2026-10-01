@@ -4,7 +4,7 @@ description: "Contents of the Basics guide: which pages are already written. Not
 lang: en
 slug: basics
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: basics
 tags:
@@ -29,6 +29,7 @@ Contents of Basics. Each item leads to its own page.
 
 - [The first dose](/learn/en/ordinary-day/#the-first-dose)
 - [A plan of doses for the day](/learn/en/ordinary-day/#a-plan-of-doses-for-the-day)
+- [Initial calibration](/learn/en/initial-calibration/)
 - [The first influencing factor](/learn/en/ordinary-day/#the-first-influencing-factor)
 - [Overview of influencing factors](/learn/en/ordinary-day/#overview-of-influencing-factors)
 

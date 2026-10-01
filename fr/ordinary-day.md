@@ -4,7 +4,7 @@ description: "Une journée ordinaire dans CortisolTracker : la première dose, u
 lang: fr
 slug: ordinary-day
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: ordinary-day
 tags:
@@ -39,6 +39,8 @@ Une dose peut rester «Planifiée» tant que vous n’avez pas marqué «Confirm
 Plusieurs prises dans la journée sont plusieurs enregistrements dans «Doses aujourd’hui», chacun avec son heure et sa quantité. «Dose récurrente» répète cet enregistrement chaque jour, si bien que la routine ordinaire n’a pas à être retapée.
 
 «Calcul GC» peut proposer une heure et une quantité d’après la courbe actuelle et les enregistrer comme dose planifiée. C’est un repère tiré des enregistrements déjà saisis. La prendre ou la modifier est votre décision, avec le médecin.
+
+Quand plusieurs doses sont déjà notées et que le graphique est sous les yeux, il vaut la peine de lire la [calibration initiale](/learn/fr/initial-calibration/). On y voit pourquoi un graphique non calibré ne dit pas si la dose est trop forte ou trop faible, et comment régler l’échelle du calcul.
 
 ## Le premier facteur d’influence
 

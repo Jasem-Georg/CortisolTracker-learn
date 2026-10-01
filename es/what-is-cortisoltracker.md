@@ -4,7 +4,7 @@ description: "Qué muestra CortisolTracker: una curva de cortisol calculada a pa
 lang: es
 slug: what-is-cortisoltracker
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: what-is-cortisoltracker
 tags:
@@ -48,6 +48,8 @@ El gráfico sirve para ver el propio día con más facilidad y para tener de qu�
 ![Día calculado del 29 de septiembre de 2026: tres tomas de hidrocortisona, comida, café y actividad](/learn/images/typical-day.png)
 
 Es un día ordinario de una persona, **NO** una pauta para copiar. En el registro hay tres tomas de hidrocortisona, después de la de la mañana comida y café, y más tarde actividad. La línea azul es el «perfil de referencia sano de una persona en reposo». La violeta es la «referencia con factores»: la misma guía, desplazada por esas marcas. Verde, amarillo y rojo son la concentración calculada respecto a esa referencia: verde es lo normal, amarillo una desviación moderada, rojo una desviación crítica. Los rótulos de los puntos son dosis registradas. La línea discontinua amarilla es la hora actual; a su derecha las curvas van punteadas, es el cálculo para las horas que quedan del día. Bajo el gráfico, las mismas dosis y factores aparecen en lista. Los rótulos de la imagen están en inglés porque así estaba el idioma de la interfaz.
+
+Cuando ya hay varias dosis anotadas y el gráfico está delante, la escala del cálculo se puede ajustar con la [calibración inicial](/learn/es/initial-calibration/). Un gráfico sin calibrar no dice que la dosis sea demasiado alta o demasiado baja.
 
 ## Qué queda en los registros
 

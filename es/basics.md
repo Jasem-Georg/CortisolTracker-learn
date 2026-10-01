@@ -4,7 +4,7 @@ description: "Contenido de Fundamentos: qué páginas ya están escritas. No es 
 lang: es
 slug: basics
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: basics
 tags:
@@ -29,6 +29,7 @@ Contenido de Fundamentos. Cada punto lleva a su propia página.
 
 - [La primera dosis](/learn/es/ordinary-day/#la-primera-dosis)
 - [Un plan de dosis para el día](/learn/es/ordinary-day/#un-plan-de-dosis-para-el-día)
+- [Calibración inicial](/learn/es/initial-calibration/)
 - [El primer factor de influencia](/learn/es/ordinary-day/#el-primer-factor-de-influencia)
 - [Resumen de los factores de influencia](/learn/es/ordinary-day/#resumen-de-los-factores-de-influencia)
 

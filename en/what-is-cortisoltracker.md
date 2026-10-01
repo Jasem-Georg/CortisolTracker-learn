@@ -4,7 +4,7 @@ description: "What CortisolTracker shows: a calculated cortisol curve from logge
 lang: en
 slug: what-is-cortisoltracker
 date: 2026-09-29
-updated: 2026-09-29
+updated: 2026-10-01
 draft: false
 translates: what-is-cortisoltracker
 tags:
@@ -48,6 +48,8 @@ The chart is there so your day is easier to see, and so there is something to ta
 ![Calculated day of 29 September 2026: three hydrocortisone doses, food, coffee, and activity](/learn/images/typical-day.png)
 
 This is one ordinary day of one person, **NOT** a regimen to copy. The log has three hydrocortisone doses, food and coffee after the morning one, and activity later in the day. The blue line is the healthy reference profile of a person at rest. The purple line is the reference with factors: the same guide, shifted by those marks. Green, yellow, and red are the calculated concentration against that reference: green is normal, yellow is a moderate deviation, red is a critical deviation. The labels on the points are logged doses. The yellow dashed line is the current time; to the right of it the curves are dotted, which is the calculation for the remaining hours of the day. Under the chart, the same doses and factors are listed.
+
+Once several doses are logged and the chart is in front of you, the scale of the calculation can be set from [initial calibration](/learn/en/initial-calibration/). An uncalibrated chart cannot say that a dose is too high or too low.
 
 ## What stays in the records
 
