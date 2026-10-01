@@ -4,7 +4,7 @@ description: "One patient’s logged hydrocortisone days — ordinary coverage v
 lang: en
 slug: stress-dosing-sick-day
 date: 2026-09-16
-updated: 2026-09-16
+updated: 2026-10-01
 draft: false
 translates: stress-dosing-sick-day
 tags:
@@ -69,7 +69,8 @@ The gap between the two charts is not only “I feel worse.” It is the gap bet
 
 ## Further reading
 
-- [Endocrine Society clinical practice guidelines](https://www.endocrine.org/clinical-practice-guidelines) — professional adrenal and glucocorticoid topics.
+- [Endocrine Society: Diagnosis and Treatment of Primary Adrenal Insufficiency (2016)](https://pmc.ncbi.nlm.nih.gov/articles/PMC4880116/) — open full text of the clinical practice guideline, including stress-dosing education.
+- [Endocrine Society: Hormonal Replacement in Hypopituitarism in Adults (2016)](https://pubmed.ncbi.nlm.nih.gov/27736313/) — central (secondary) adrenal insufficiency; this patient’s diagnosis.
 - [NICE NG243: Adrenal insufficiency](https://www.nice.org.uk/guidance/ng243) — identification and management (UK), including emergency and sick-day context.
 - [NHS: Addison’s disease](https://www.nhs.uk/conditions/addisons-disease/) — patient-facing overview; follow **your** written sick-day plan, not a blog chart.
 
