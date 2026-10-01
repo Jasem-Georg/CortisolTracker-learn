@@ -30,6 +30,10 @@ Le graphique a trois repères :
 
 C’est la courbe vert-jaune-rouge que l’on compare à la référence. Le bleu et le violet, à eux seuls, ne disent pas que le comprimé « n’est pas le bon ».
 
+![10 mg du matin avant calibration : le pic vert est sous la référence bleue](/learn/images/calibration-before.png)
+
+Sur l’image, un exemple, **PAS** un schéma. 10 mg habituels d’hydrocortisone le matin, tant que kCalib n’est pas ajusté : le pic vert est nettement sous le bleu. Cela ne veut pas dire que la dose est trop faible. Les libellés sont en anglais, parce que la langue de l’interface l’était.
+
 ## Un peu de théorie
 
 L’écart entre les personnes est très grand. CortisolTracker part donc d’une personne moyenne de la population : environ 30 ans, 70 kg, un sommeil habituel d’environ 8 heures, un réveil vers 7 heures du matin. Le pic de la courbe bleue pour cette référence est d’environ 350–370 nmol/L, à peu près une heure après le réveil.
@@ -46,7 +50,16 @@ En règle générale, nous n’avons pas nos chiffres d’avant la maladie. Mêm
 2. Saisissez la première dose, celle du matin, telle que vous la prenez vraiment. La calibration initiale se fait sur elle.
 3. Prenez cette règle de travail : un jour calme, sans dose de stress, le pic de la dose du matin doit tomber près du pic matinal de la courbe bleue.
 4. Si l’écart est net, changez **K calibration (doses)**, le paramètre kCalib. Il est dans les **Paramètres utilisateur**, section **Paramètres de calibration**. C’est le multiplicateur d’amplitude des doses. La valeur par défaut est **1,6**. Décalez-le de quelques crans vers le haut ou vers le bas et regardez de nouveau le graphique.
+
+![Le champ kCalib dans les paramètres utilisateur, valeur 1,6](/learn/images/calibration-kcalib.png)
+
+Sur l’image, le champ kCalib est entouré. La valeur par défaut est 1,6. Les libellés sont en anglais, parce que la langue de l’interface l’était.
+
 5. Quand la courbe de concentration s’est rapprochée autant que possible de la bleue autour du pic du matin, la calibration initiale peut être tenue pour faite.
+
+![Les mêmes 10 mg après réglage de kCalib : le pic du matin est près de la courbe bleue](/learn/images/calibration-after.png)
+
+Sur l’image, un exemple, **PAS** un schéma. Les mêmes 10 mg du matin après le réglage de kCalib : le pic de la dose est rapproché de la courbe bleue. Les libellés sont en anglais, parce que la langue de l’interface l’était.
 
 Plus tard, vous fixerez très probablement pour vous la dose du matin la plus confortable. Il est alors sensé d’ajuster encore kCalib sur cette dose.
 
@@ -62,15 +75,30 @@ Ci-dessous, des journées calmes habituelles chez l’adulte en insuffisance sur
 
 L’écart à l’intérieur de la bande habituelle est déjà visible : 15 mg et 25 mg d’hydrocortisone sont deux doses habituelles, même s’il y a environ une fois et demie entre elles. Ce qui sort de l’ordinaire un jour calme, c’est de passer **au-dessus du plafond** de cette bande. Une fois et demie au-dessus du plafond, c’est plutôt une dose de stress ou un besoin thérapeutique particulier, pas « simplement ma normale ».
 
-| Médicament, dose quotidienne | Comment on la répartit d’habitude | Équivalent hydrocortisone dans le suivi |
-| --- | --- | --- |
-| Hydrocortisone, 15–25 mg | 2 ou 3 prises. La plus grande part juste après le réveil. À deux doses, la seconde tôt dans la journée, repère environ deux heures après le déjeuner. À trois, au déjeuner et dans la journée ; la dernière au plus tard 4 à 6 heures avant le sommeil. Répartitions de manuel : 10+5, 15+5, 10+5+5, 15+5+5 | les mêmes 15–25 mg |
-| Acétate de cortisone, 20–35 mg | Les mêmes 2–3 prises, le matin le plus gros. Exemple : 25 mg le matin et 12,5 mg dans la journée | 0,8× : 25 mg ≈ 20 mg d’hydrocortisone |
-| Prednisolone, 3–5 mg | Une fois le matin, ou deux fois, matin et début de journée | 4× : 5 mg ≈ 20 mg d’hydrocortisone |
-| Prednisone, 3–5 mg | D’habitude une prise du matin | 4× : 5 mg ≈ 20 mg d’hydrocortisone |
-| Méthylprednisolone, environ 3–5 mg | Ces recommandations ne donnent pas de schéma de substitution à part. D’habitude une prise du matin | 5× : 4 mg ≈ 20 mg d’hydrocortisone |
-| Dexaméthasone, non recommandée pour la substitution habituelle | Action longue, la dose est difficile à caser dans la journée. Si elle est déjà prescrite, regardez l’équivalent, pas un « schéma typique » | 25× : 0,5 mg = 12,5 mg d’hydrocortisone ; 0,75 mg ≈ 19 mg ; 1 mg = 25 mg |
+### Hydrocortisone, 15–25 mg
 
-Les 100 mg d’hydrocortisone d’urgence ne sont pas dans ce tableau. C’est une dose de crise, pas une journée calme.
+2 ou 3 prises. La plus grande part juste après le réveil. À deux doses, la seconde tôt dans la journée, repère environ deux heures après le déjeuner. À trois, au déjeuner et dans la journée ; la dernière au plus tard 4 à 6 heures avant le sommeil. Répartitions de manuel : 10+5, 15+5, 10+5+5, 15+5+5. Dans le suivi, ce sont les mêmes 15–25 mg.
 
-Comparez votre journée calme au plafond de la ligne de votre médicament. Hydrocortisone nettement au-dessus de 25 mg, prednisolone au-dessus de 5 mg, méthylprednisolone au-dessus de 5 mg, dexaméthasone au-dessus d’environ 1 mg dans l’équivalent du suivi : une raison de ne pas tourner kCalib « jusqu’à ce que ça colle », et de laisser le réglage standard jusqu’à préciser le schéma avec le médecin.
+### Acétate de cortisone, 20–35 mg
+
+Les mêmes 2–3 prises, le matin le plus gros. Exemple : 25 mg le matin et 12,5 mg dans la journée. Dans le suivi, 0,8× : 25 mg ≈ 20 mg d’hydrocortisone.
+
+### Prednisolone, 3–5 mg
+
+Une fois le matin, ou deux fois, matin et début de journée. Dans le suivi, 4× : 5 mg ≈ 20 mg d’hydrocortisone.
+
+### Prednisone, 3–5 mg
+
+D’habitude une prise du matin. Dans le suivi, 4× : 5 mg ≈ 20 mg d’hydrocortisone.
+
+### Méthylprednisolone, environ 3–5 mg
+
+Ces recommandations ne donnent pas de schéma de substitution à part. D’habitude une prise du matin. Dans le suivi, 5× : 4 mg ≈ 20 mg d’hydrocortisone.
+
+### Dexaméthasone, non recommandée pour la substitution habituelle
+
+Action longue, la dose est difficile à caser dans la journée. Si elle est déjà prescrite, regardez l’équivalent, pas un « schéma typique ». Dans le suivi, 25× : 0,5 mg = 12,5 mg d’hydrocortisone ; 0,75 mg ≈ 19 mg ; 1 mg = 25 mg.
+
+Les 100 mg d’hydrocortisone d’urgence ne sont pas dans cette liste. C’est une dose de crise, pas une journée calme.
+
+Comparez votre journée calme au plafond de votre médicament. Hydrocortisone nettement au-dessus de 25 mg, prednisolone au-dessus de 5 mg, méthylprednisolone au-dessus de 5 mg, dexaméthasone au-dessus d’environ 1 mg dans l’équivalent du suivi : une raison de ne pas tourner kCalib « jusqu’à ce que ça colle », et de laisser le réglage standard jusqu’à préciser le schéma avec le médecin.

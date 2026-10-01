@@ -30,6 +30,10 @@ En el gráfico hay tres referencias:
 
 Con la referencia se compara la curva verde-amarilla-roja. Azul y violeta, por sí solas, no dicen que la pastilla «no es la correcta».
 
+![10 mg de la mañana antes de calibrar: el pico verde queda bajo la referencia azul](/learn/images/calibration-before.png)
+
+En la imagen hay un ejemplo, **NO** una pauta. Unos 10 mg matutinos habituales de hidrocortisona, mientras kCalib aún no está ajustado: el pico verde queda claramente bajo el azul. Eso no significa que la dosis sea demasiado baja. Los rótulos están en inglés porque así estaba el idioma de la interfaz.
+
 ## Un poco de teoría
 
 La dispersión entre personas es muy grande. Por eso CortisolTracker parte de una persona media de la población: unos 30 años, 70 kg, un sueño habitual de unas 8 horas, despertar hacia las 7 de la mañana. El pico de la curva azul en esa referencia ronda 350–370 nmol/L, más o menos una hora después de despertar.
@@ -46,7 +50,16 @@ Por lo general no tenemos nuestras cifras de antes de la enfermedad. Aunque algu
 2. Introduce la primera dosis, la de la mañana, tal como de verdad la tomas. La calibración inicial se hace con ella.
 3. Acepta esta regla de trabajo: en un día tranquilo, sin dosis de estrés, el pico de la dosis matutina debe caer cerca del pico matutino de la curva azul.
 4. Si la diferencia es clara, cambia **K calibración (dosis)**, el parámetro kCalib. Está en **Ajustes de usuario**, sección **Parámetros de calibración**. Es el multiplicador de la amplitud de las dosis. El valor por defecto es **1,6**. Muévelo unos escalones arriba o abajo y vuelve a mirar el gráfico.
+
+![El campo kCalib en los ajustes de usuario, valor 1,6](/learn/images/calibration-kcalib.png)
+
+En la imagen el campo kCalib está rodeado. El valor por defecto es 1,6. Los rótulos están en inglés porque así estaba el idioma de la interfaz.
+
 5. Cuando la curva de concentración se haya acercado todo lo posible a la azul alrededor del pico matutino, la calibración inicial puede darse por hecha.
+
+![Los mismos 10 mg tras ajustar kCalib: el pico matutino queda junto a la curva azul](/learn/images/calibration-after.png)
+
+En la imagen hay un ejemplo, **NO** una pauta. Los mismos 10 mg de la mañana tras ajustar kCalib: el pico de la dosis se acerca a la curva azul. Los rótulos están en inglés porque así estaba el idioma de la interfaz.
 
 Más adelante, lo más probable es que fijes para ti la dosis matutina más cómoda. Entonces tiene sentido volver a ajustar kCalib a esa dosis.
 
@@ -62,15 +75,30 @@ Abajo van días tranquilos habituales en adultos con insuficiencia suprarrenal p
 
 La diferencia dentro de la banda habitual ya se nota: 15 mg y 25 mg de hidrocortisona son ambas dosis habituales, aunque entre ellas hay cerca de una vez y media. Lo que resulta raro en un día tranquilo es salir **por encima del techo** de esa banda. Una vez y media por encima del techo apunta más bien a una dosis de estrés o a una necesidad terapéutica especial, no a «simplemente mi normal».
 
-| Fármaco, dosis diaria | Cómo se suele repartir | Equivalente de hidrocortisona en el rastreador |
-| --- | --- | --- |
-| Hidrocortisona, 15–25 mg | 2 o 3 tomas. La mayor parte justo después de despertar. Con dos dosis, la segunda a primera hora del día, orientación unas dos horas después de comer. Con tres, a mediodía y por la tarde; la última no más tarde de 4–6 horas antes de dormir. Repartos de manual: 10+5, 15+5, 10+5+5, 15+5+5 | los mismos 15–25 mg |
-| Acetato de cortisona, 20–35 mg | Las mismas 2–3 tomas, la mañana la más grande. Ejemplo: 25 mg por la mañana y 12,5 mg por el día | 0,8×: 25 mg ≈ 20 mg de hidrocortisona |
-| Prednisolona, 3–5 mg | Una vez por la mañana, o dos, mañana y primera hora del día | 4×: 5 mg ≈ 20 mg de hidrocortisona |
-| Prednisona, 3–5 mg | Suele ser una toma matutina | 4×: 5 mg ≈ 20 mg de hidrocortisona |
-| Metilprednisolona, unos 3–5 mg | Estas recomendaciones no dan una pauta de sustitución aparte. Suele ser una toma matutina | 5×: 4 mg ≈ 20 mg de hidrocortisona |
-| Dexametasona, no recomendada para la sustitución habitual | Acción larga, la dosis cuesta encajarla en el día. Si ya está pautada, mira el equivalente, no un «esquema típico» | 25×: 0,5 mg = 12,5 mg de hidrocortisona; 0,75 mg ≈ 19 mg; 1 mg = 25 mg |
+### Hidrocortisona, 15–25 mg
 
-Los 100 mg de hidrocortisona de urgencia no entran en esta tabla. Es una dosis de crisis, no un día tranquilo.
+2 o 3 tomas. La mayor parte justo después de despertar. Con dos dosis, la segunda a primera hora del día, orientación unas dos horas después de comer. Con tres, a mediodía y por la tarde; la última no más tarde de 4–6 horas antes de dormir. Repartos de manual: 10+5, 15+5, 10+5+5, 15+5+5. En el rastreador son los mismos 15–25 mg.
 
-Compara tu día tranquilo con el techo de la fila de tu fármaco. Hidrocortisona claramente por encima de 25 mg, prednisolona por encima de 5 mg, metilprednisolona por encima de 5 mg, dexametasona por encima de cerca de 1 mg en el equivalente del rastreador: motivo para no girar kCalib «hasta que cuadre», y para dejar el ajuste estándar hasta aclarar la pauta con el médico.
+### Acetato de cortisona, 20–35 mg
+
+Las mismas 2–3 tomas, la mañana la más grande. Ejemplo: 25 mg por la mañana y 12,5 mg por el día. En el rastreador, 0,8×: 25 mg ≈ 20 mg de hidrocortisona.
+
+### Prednisolona, 3–5 mg
+
+Una vez por la mañana, o dos, mañana y primera hora del día. En el rastreador, 4×: 5 mg ≈ 20 mg de hidrocortisona.
+
+### Prednisona, 3–5 mg
+
+Suele ser una toma matutina. En el rastreador, 4×: 5 mg ≈ 20 mg de hidrocortisona.
+
+### Metilprednisolona, unos 3–5 mg
+
+Estas recomendaciones no dan una pauta de sustitución aparte. Suele ser una toma matutina. En el rastreador, 5×: 4 mg ≈ 20 mg de hidrocortisona.
+
+### Dexametasona, no recomendada para la sustitución habitual
+
+Acción larga, la dosis cuesta encajarla en el día. Si ya está pautada, mira el equivalente, no un «esquema típico». En el rastreador, 25×: 0,5 mg = 12,5 mg de hidrocortisona; 0,75 mg ≈ 19 mg; 1 mg = 25 mg.
+
+Los 100 mg de hidrocortisona de urgencia no entran en esta lista. Es una dosis de crisis, no un día tranquilo.
+
+Compara tu día tranquilo con el techo de tu fármaco. Hidrocortisona claramente por encima de 25 mg, prednisolona por encima de 5 mg, metilprednisolona por encima de 5 mg, dexametasona por encima de cerca de 1 mg en el equivalente del rastreador: motivo para no girar kCalib «hasta que cuadre», y para dejar el ajuste estándar hasta aclarar la pauta con el médico.
