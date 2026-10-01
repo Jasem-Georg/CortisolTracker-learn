@@ -30,6 +30,10 @@ The chart has three guides:
 
 Compare the green-yellow-red curve with the reference. Blue and purple, by themselves, do not say that the tablet is "the wrong one".
 
+![Morning 10 mg before calibration: the green peak sits below the blue reference](/learn/images/calibration-before.png)
+
+The picture is one example, **NOT** a regimen. An ordinary morning 10 mg of hydrocortisone before kCalib is fitted: the green peak sits well below the blue one. That does not mean the dose is too small. The labels are English.
+
 ## A little theory
 
 The spread between people is very large. CortisolTracker therefore starts from an average person: about 30 years old, weight 70 kg, ordinary sleep of about 8 hours, waking around 7 in the morning. The peak of the blue curve for that reference is about 350–370 nmol/L, roughly one hour after waking.
@@ -46,7 +50,16 @@ As a rule we do not have our own numbers from before the illness. Even if tests 
 2. Enter the first, morning dose as you actually take it. The first calibration is done from that dose.
 3. Use this working rule: on a quiet day, without stress dosing, the peak from the morning dose should land near the morning peak of the blue curve.
 4. If the gap is substantial, change **K calibration (doses)**, the parameter kCalib. It is in **User settings**, section **Calibration parameters**. It is the dose-amplitude multiplier. The default is **1.6**. Move it a few steps up or down and look at the chart again.
+
+![The kCalib field in user settings, value 1.6](/learn/images/calibration-kcalib.png)
+
+The picture circles the kCalib field. The default is 1.6. The labels are English.
+
 5. When the concentration curve has come as close as it can to the blue curve around the morning peak, the first calibration can be treated as done.
+
+![The same 10 mg after fitting kCalib: the morning peak sits near the blue curve](/learn/images/calibration-after.png)
+
+The picture is one example, **NOT** a regimen. The same morning 10 mg after kCalib is fitted: the dose peak is brought near the blue curve. The labels are English.
 
 Later you will most likely settle on a morning dose that feels most comfortable. It then makes sense to fit kCalib to that dose once more.
 
@@ -62,15 +75,30 @@ Below are ordinary quiet days for adults with primary adrenal insufficiency. The
 
 The spread inside the ordinary band is already noticeable: hydrocortisone 15 mg and 25 mg are both ordinary doses, even though they differ by about one and a half times. What looks unusual on a quiet day is going **above the top of that band**. One and a half times above the ceiling is more likely stress dosing or a special therapeutic need, not "simply my normal".
 
-| Drug, daily dose | How it is usually split | Hydrocortisone equivalent in the tracker |
-| --- | --- | --- |
-| Hydrocortisone, 15–25 mg | 2 or 3 intakes. The largest part right after waking. With two doses, the second is early in the day, about two hours after lunch as a guide. With three, at lunch and later in the day; the last one no later than 4–6 hours before sleep. Textbook layouts: 10+5, 15+5, 10+5+5, 15+5+5 | the same 15–25 mg |
-| Cortisone acetate, 20–35 mg | The same 2–3 intakes, morning the largest. Example: 25 mg in the morning and 12.5 mg later in the day | 0.8×: 25 mg ≈ 20 mg hydrocortisone |
-| Prednisolone, 3–5 mg | Once in the morning, or twice, morning and early day | 4×: 5 mg ≈ 20 mg hydrocortisone |
-| Prednisone, 3–5 mg | Usually one morning intake | 4×: 5 mg ≈ 20 mg hydrocortisone |
-| Methylprednisolone, about 3–5 mg | These recommendations do not give a separate replacement schedule. Usually one morning intake | 5×: 4 mg ≈ 20 mg hydrocortisone |
-| Dexamethasone, not recommended for ordinary replacement | Long action, hard to fit a dose into the day. If it is already prescribed, look at the equivalent, not at a "typical schedule" | 25×: 0.5 mg = 12.5 mg hydrocortisone; 0.75 mg ≈ 19 mg; 1 mg = 25 mg |
+### Hydrocortisone, 15–25 mg
 
-Emergency hydrocortisone 100 mg is not in this table. That is a crisis dose, not a quiet day.
+2 or 3 intakes. The largest part right after waking. With two doses, the second is early in the day, about two hours after lunch as a guide. With three, at lunch and later in the day; the last one no later than 4–6 hours before sleep. Textbook layouts: 10+5, 15+5, 10+5+5, 15+5+5. In the tracker that is the same 15–25 mg.
 
-Compare your quiet day with the top of the row for your drug. Hydrocortisone clearly above 25 mg, prednisolone above 5 mg, methylprednisolone above 5 mg, dexamethasone above about 1 mg in the tracker's equivalent — a reason not to turn kCalib "until it matches", and to leave the standard setting until the schedule is clarified with your doctor.
+### Cortisone acetate, 20–35 mg
+
+The same 2–3 intakes, morning the largest. Example: 25 mg in the morning and 12.5 mg later in the day. In the tracker, 0.8×: 25 mg ≈ 20 mg hydrocortisone.
+
+### Prednisolone, 3–5 mg
+
+Once in the morning, or twice, morning and early day. In the tracker, 4×: 5 mg ≈ 20 mg hydrocortisone.
+
+### Prednisone, 3–5 mg
+
+Usually one morning intake. In the tracker, 4×: 5 mg ≈ 20 mg hydrocortisone.
+
+### Methylprednisolone, about 3–5 mg
+
+These recommendations do not give a separate replacement schedule. Usually one morning intake. In the tracker, 5×: 4 mg ≈ 20 mg hydrocortisone.
+
+### Dexamethasone, not recommended for ordinary replacement
+
+Long action, hard to fit a dose into the day. If it is already prescribed, look at the equivalent, not at a "typical schedule". In the tracker, 25×: 0.5 mg = 12.5 mg hydrocortisone; 0.75 mg ≈ 19 mg; 1 mg = 25 mg.
+
+Emergency hydrocortisone 100 mg is not in this list. That is a crisis dose, not a quiet day.
+
+Compare your quiet day with the top of the band for your drug. Hydrocortisone clearly above 25 mg, prednisolone above 5 mg, methylprednisolone above 5 mg, dexamethasone above about 1 mg in the tracker's equivalent — a reason not to turn kCalib "until it matches", and to leave the standard setting until the schedule is clarified with your doctor.

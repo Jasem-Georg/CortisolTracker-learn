@@ -30,6 +30,10 @@ Die Kurve hat drei Orientierungen:
 
 Mit der Referenz vergleicht man die grün-gelb-rote Kurve. Blau und violett sagen für sich allein nicht, dass die Tablette «die falsche» ist.
 
+![Morgendliche 10 mg vor der Kalibrierung: der grüne Gipfel liegt unter der blauen Referenz](/learn/images/calibration-before.png)
+
+Das Bild ist ein Beispiel, **KEIN** Schema. Gewöhnliche morgendliche 10 mg Hydrocortison, solange kCalib noch nicht angepasst ist: der grüne Gipfel liegt deutlich unter dem blauen. Das heißt nicht, dass die Dosis zu klein ist. Die Beschriftungen sind Englisch, weil die Oberfläche auf Englisch stand.
+
 ## Ein wenig Theorie
 
 Die Streuung zwischen Menschen ist sehr groß. CortisolTracker startet deshalb bei einem bevölkerungstypischen Menschen: etwa 30 Jahre, Gewicht 70 kg, gewöhnlicher Schlaf von etwa 8 Stunden, Aufwachen gegen 7 Uhr morgens. Der Gipfel der blauen Kurve bei dieser Referenz liegt bei etwa 350–370 nmol/l, ungefähr eine Stunde nach dem Aufwachen.
@@ -46,7 +50,16 @@ In der Regel haben wir unsere Werte von vor der Krankheit nicht. Selbst wenn es 
 2. Tragen Sie die erste, morgendliche Dosis so ein, wie Sie sie wirklich einnehmen. Die erste Kalibrierung macht man an ihr.
 3. Nehmen Sie diese Arbeitsregel: An einem ruhigen Tag, ohne Stressdosierung, soll der Gipfel der Morgendosis neben dem morgendlichen Gipfel der blauen Kurve liegen.
 4. Ist der Abstand deutlich, ändern Sie **K Kalibrierung (Dosen)**, den Parameter kCalib. Er liegt in den **Benutzereinstellungen**, Abschnitt **Kalibrierungsparameter**. Das ist der Multiplikator der Dosisamplitude. Der Vorgabewert ist **1,6**. Schieben Sie ihn ein paar Stufen nach oben oder unten und sehen Sie die Kurve erneut an.
+
+![Das Feld kCalib in den Benutzereinstellungen, Wert 1,6](/learn/images/calibration-kcalib.png)
+
+Auf dem Bild ist das Feld kCalib eingekreist. Der Vorgabewert ist 1,6. Die Beschriftungen sind Englisch, weil die Oberfläche auf Englisch stand.
+
 5. Wenn die Konzentrationskurve sich dem Blau im Bereich des Morgengipfels so weit wie möglich genähert hat, kann die erste Kalibrierung als erledigt gelten.
+
+![Dieselben 10 mg nach Anpassung von kCalib: der Morgengipfel liegt nahe der blauen Kurve](/learn/images/calibration-after.png)
+
+Das Bild ist ein Beispiel, **KEIN** Schema. Dieselben morgendlichen 10 mg nach der Anpassung von kCalib: der Dosisgipfel ist an die blaue Kurve herangerückt. Die Beschriftungen sind Englisch, weil die Oberfläche auf Englisch stand.
 
 Später werden Sie für sich höchstwahrscheinlich eine Morgendosis finden, die sich am besten anfühlt. Dann lohnt es sich, kCalib noch einmal an diese Dosis anzupassen.
 
@@ -62,15 +75,30 @@ Unten stehen gewöhnliche ruhige Tage für Erwachsene mit primärer Nebenniereni
 
 Der Abstand innerhalb des gewöhnlichen Bandes ist schon deutlich: Hydrocortison 15 mg und 25 mg sind beide gewöhnliche Dosen, obwohl etwa das Anderthalbfache dazwischen liegt. Ungewöhnlich an einem ruhigen Tag ist ein Gehen **über die obere Grenze** dieses Bandes. Anderthalbmal über der Decke ist eher Stressdosierung oder ein besonderer therapeutischer Bedarf, nicht «einfach meine Norm».
 
-| Präparat, Tagesdosis | Wie man sie meist teilt | Hydrocortison-Äquivalent im Tracker |
-| --- | --- | --- |
-| Hydrocortison, 15–25 mg | 2 oder 3 Einnahmen. Der größte Teil direkt nach dem Aufwachen. Bei zwei Dosen die zweite früh am Tag, Orientierung etwa zwei Stunden nach dem Mittagessen. Bei drei zum Mittag und am Tag; die letzte nicht später als 4–6 Stunden vor dem Schlafen. Lehrbuch-Aufteilungen: 10+5, 15+5, 10+5+5, 15+5+5 | dieselben 15–25 mg |
-| Cortisonacetat, 20–35 mg | Dieselben 2–3 Einnahmen, der Morgen am größten. Beispiel: 25 mg morgens und 12,5 mg am Tag | 0,8×: 25 mg ≈ 20 mg Hydrocortison |
-| Prednisolon, 3–5 mg | Einmal morgens oder zweimal, Morgen und früher Tag | 4×: 5 mg ≈ 20 mg Hydrocortison |
-| Prednison, 3–5 mg | Meist eine morgendliche Einnahme | 4×: 5 mg ≈ 20 mg Hydrocortison |
-| Methylprednisolon, etwa 3–5 mg | Diese Empfehlungen geben kein eigenes Ersatzschema. Meist eine morgendliche Einnahme | 5×: 4 mg ≈ 20 mg Hydrocortison |
-| Dexamethason, für den gewöhnlichen Ersatz nicht empfohlen | Lange Wirkung, die Dosis lässt sich schwer in den Tag legen. Wenn es schon verordnet ist, sehen Sie das Äquivalent an, nicht ein «typisches Schema» | 25×: 0,5 mg = 12,5 mg Hydrocortison; 0,75 mg ≈ 19 mg; 1 mg = 25 mg |
+### Hydrocortison, 15–25 mg
 
-Notfall-Hydrocortison 100 mg steht nicht in dieser Tabelle. Das ist eine Krisendosis, kein ruhiger Tag.
+2 oder 3 Einnahmen. Der größte Teil direkt nach dem Aufwachen. Bei zwei Dosen die zweite früh am Tag, Orientierung etwa zwei Stunden nach dem Mittagessen. Bei drei zum Mittag und am Tag; die letzte nicht später als 4–6 Stunden vor dem Schlafen. Lehrbuch-Aufteilungen: 10+5, 15+5, 10+5+5, 15+5+5. Im Tracker sind das dieselben 15–25 mg.
 
-Vergleichen Sie Ihren ruhigen Tag mit der oberen Grenze der Zeile Ihres Präparats. Hydrocortison deutlich über 25 mg, Prednisolon über 5 mg, Methylprednisolon über 5 mg, Dexamethason im Äquivalent des Trackers über etwa 1 mg — ein Grund, kCalib nicht «bis es passt» zu drehen, sondern die Standardeinstellung zu lassen, bis das Schema mit der Ärztin oder dem Arzt geklärt ist.
+### Cortisonacetat, 20–35 mg
+
+Dieselben 2–3 Einnahmen, der Morgen am größten. Beispiel: 25 mg morgens und 12,5 mg am Tag. Im Tracker 0,8×: 25 mg ≈ 20 mg Hydrocortison.
+
+### Prednisolon, 3–5 mg
+
+Einmal morgens oder zweimal, Morgen und früher Tag. Im Tracker 4×: 5 mg ≈ 20 mg Hydrocortison.
+
+### Prednison, 3–5 mg
+
+Meist eine morgendliche Einnahme. Im Tracker 4×: 5 mg ≈ 20 mg Hydrocortison.
+
+### Methylprednisolon, etwa 3–5 mg
+
+Diese Empfehlungen geben kein eigenes Ersatzschema. Meist eine morgendliche Einnahme. Im Tracker 5×: 4 mg ≈ 20 mg Hydrocortison.
+
+### Dexamethason, für den gewöhnlichen Ersatz nicht empfohlen
+
+Lange Wirkung, die Dosis lässt sich schwer in den Tag legen. Wenn es schon verordnet ist, sehen Sie das Äquivalent an, nicht ein «typisches Schema». Im Tracker 25×: 0,5 mg = 12,5 mg Hydrocortison; 0,75 mg ≈ 19 mg; 1 mg = 25 mg.
+
+Notfall-Hydrocortison 100 mg steht nicht in dieser Aufzählung. Das ist eine Krisendosis, kein ruhiger Tag.
+
+Vergleichen Sie Ihren ruhigen Tag mit der oberen Grenze Ihres Präparats. Hydrocortison deutlich über 25 mg, Prednisolon über 5 mg, Methylprednisolon über 5 mg, Dexamethason im Äquivalent des Trackers über etwa 1 mg — ein Grund, kCalib nicht «bis es passt» zu drehen, sondern die Standardeinstellung zu lassen, bis das Schema mit der Ärztin oder dem Arzt geklärt ist.
